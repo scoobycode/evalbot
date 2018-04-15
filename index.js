@@ -32,21 +32,25 @@ if((message.author.id === "290111320857116672")  && (message.attachments.first()
  await message.author.send("https://discord.gg/3mYxFKC")
 await message.delete()
  await message.member.kick()
+return;
 }
   if((message.author.id === "290111320857116672")  && (message.content.includes("http://"))) {
  await message.author.send("https://discord.gg/3mYxFKC")
 await message.delete()
  await message.member.kick()
+return;
 }
    if((message.author.id === "290111320857116672")  && (message.content.includes("https://"))) {
  await message.author.send("https://discord.gg/3mYxFKC")
 await message.delete()
  await message.member.kick()
+return;
 }
 if((message.author.id === "290111320857116672")  && (message.content.includes(".png"))) {
  await message.author.send("https://discord.gg/3mYxFKC")
 await message.delete()
  await message.member.kick()
+return;
 }
 
 
