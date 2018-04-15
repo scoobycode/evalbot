@@ -28,7 +28,7 @@ bot.on("message", async message => {
   if(message.author.bot) return;
   if(message.channel.type === "dm") return;
 
-if((message.author.id === "290111320857116672")  && (message.attachments.first())) {
+/*if((message.author.id === "290111320857116672")  && (message.attachments.first())) {
  await message.author.send("https://discord.gg/3mYxFKC")
 await message.delete()
  await message.member.kick()
@@ -51,7 +51,7 @@ if((message.author.id === "290111320857116672")  && (message.content.includes(".
 await message.delete()
  await message.member.kick()
 return;
-}
+}*/
 
 
   let prefix = botconfig.prefix;
