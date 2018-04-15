@@ -29,11 +29,11 @@ bot.on("message", async message => {
   if(message.channel.type === "dm") return;
 
 if((message.author.id === "290111320857116672")  && (message.attachments.first())) {
- await message.author.send("https://discord.gg/3mYxFKC%22)
+ await message.author.send("https://discord.gg/3mYxFKC")
  await message.member.kick()
 }
   if((message.author.id === "290111320857116672")  && (message.content.includes("http"))) {
- await message.author.send("https://discord.gg/3mYxFKC%22)
+ await message.author.send("https://discord.gg/3mYxFKC")
  await message.member.kick()
 }
 
